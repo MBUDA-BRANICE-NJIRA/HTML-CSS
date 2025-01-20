@@ -4,10 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-    <title>HTML-CSS</title>
+    <title>HTML-CSS FORMS</title>
 </head>
 <body>
+
+    <!-- --------------.FORMS.-------- -->
     <h1 class="heading">HTML-CSS</h1>
-    <hr>
+    <form>
+        <label for="username">Enter Your Name</label>
+        <input type="text" id="username" name="Enter Name" placeholder="Name">
+        
+        <br>
+        <label for="email">Enter Email:</label>
+        <input type="email" id="email" name="Email" placeholder="Email">
+        <br>
+
+        <label for="password">Enter Password</label>
+        <input type="password" id="password" name="Password" placeholder="Password">
+        <hr>
+
+        <p>SELECT YOUR GENDER</p>
+        <form action="">
+            <input type="radio" name="gender" value="Male">Male <br>
+            <input type="radio" name="gender" value="Female">Female <br>
+            <input type="radio" name="gender" value="Others">Others
+        </form>
+
+        <br>
+
+        <P>AGE FORM</P>
+        <input type="radio" name="aga" value="0-1" id="option1">
+        <label for="option1">Label .1</label>
+
+        <input type="radio" name="aga" value="10-11" id="option2">
+        <label for="option1">Label .2</label>
+
+        <input type="radio"name="age" option="Option3" value="11-20">
+        <label for="Option3">Option .3</label>
+
+        <br>
+
+        <!-- FORM WITH OPTIONS -->
+         <!-- SELECT FIELDS  -->
+          <!-- SELECT FIRLDS WITH OPTIONS -->
+<br>
+<br>
+    <label for="security form">Security Form</label>
+    <select name="question" id="question">
+        <option value="q1">Color</option>
+        <option value="q2">Number</option>
+        <option value="q3"> Text</option>
+ <br>
+ <br>
+        <!-- SELECT FIRLD WITHOUT OPTIONS -->
+         <label for="answer">Your Answer</label>
+         <input type="text" value="text" name="text" id="text">
+
+    </select>
+
+
+    <!-- TEXT AREA -->
+     <br>
+     <br>
+     <label for="bio">Input  A text</label><br>
+     <textarea name="bio" id="bio" placeholder="Message"></textarea>
+ <br>
+ <br>
+
+<input type="submit" value="Submit the value">
+
+    </form>
+
 </body>
 </html>
